@@ -1,82 +1,82 @@
-## Pós Graduação Engenharia de IA Aplicada — Projetos de Estudo
+## Applied AI Engineering Postgraduate Program — Study Projects
 
-Este repositório reúne todos os projetos práticos desenvolvidos durante meu Programa em Inteligência Artificial.
-Cada pasta contém um **projeto-exemplo independente**, explorando conceitos, técnicas e ferramentas aprendidas ao longo do curso.
+This repository gathers all practical projects developed during my Artificial Intelligence postgraduate program.
+Each folder contains an **independent example project**, exploring concepts, techniques, and tools learned throughout the course.
 
-🔗 [Site oficial da pós-graduação](https://unipds.com.br/org-pos-ia)
+🔗 [Postgraduate program official website](https://unipds.com.br/org-pos-ia)
 
-### Objetivo
+### Objective
 
-* Consolidar o aprendizado com projetos práticos
-* Explorar diferentes áreas de Inteligência Artificial
-* Criar um portfólio técnico de estudos
-* Documentar experimentos e aprendizados
+* Consolidate learning through hands-on projects
+* Explore different areas of Artificial Intelligence
+* Build a technical study portfolio
+* Document experiments and learnings
 
-### 📁 Estrutura do Repositório
+### 📁 Repository Structure
 
-Cada diretório representa um projeto separado:
+Each directory represents a separate project:
 
 ```
 .
-├── projeto-01-nome/
+├── project-01-name/
 │   ├── README.md
-│   └── arquivos-do-projeto
+│   └── project-files
 │
-├── projeto-02-nome/
+├── project-02-name/
 │   ├── README.md
-│   └── arquivos-do-projeto
+│   └── project-files
 │
 └── ...
 ```
 
-Cada projeto pode conter:
+Each project may include:
 
-* Explicação do problema
-* Objetivos
-* Tecnologias utilizadas
-* Instruções para execução
-* Resultados e aprendizados
+* Problem description
+* Objectives
+* Technologies used
+* Setup and execution instructions
+* Results and learnings
 
-### 🧠 Temas Abordados (exemplos)
+### 🧠 Covered Topics (examples)
 
 * Machine Learning
 * Deep Learning
-* NLP (Processamento de Linguagem Natural)
+* NLP (Natural Language Processing)
 * Computer Vision
-* LLMs e Prompt Engineering
-* Agentes de IA
+* LLMs and Prompt Engineering
+* AI Agents
 * MLOps
-* Data Science aplicado à IA
+* AI-applied Data Science
 
-*(A lista será atualizada conforme novos projetos forem adicionados.)*
+*(This list will be updated as new projects are added.)*
 
-### Como Navegar
+### How to Navigate
 
-1. Escolha uma pasta de projeto
-2. Leia o `README.md` do projeto
-3. Execute os exemplos localmente (quando aplicável)
+1. Choose a project folder
+2. Read the project's `README.md`
+3. Run the examples locally (when applicable)
 
-### Tecnologias Possíveis
+### Possible Technologies
 
-Dependendo do projeto, podem ser utilizadas:
+Depending on the project, the following may be used:
 
 * Python
 * Jupyter Notebook
 * PyTorch / TensorFlow
 * Scikit-learn
 * Pandas / NumPy
-* APIs de LLMs
-* LangChain / frameworks de agentes
+* LLM APIs
+* LangChain / agent frameworks
 * Docker
 
-### Sobre
+### About
 
-Este repositório faz parte da minha jornada de aprendizado contínuo em Inteligência Artificial, com foco em prática e experimentação.
+This repository is part of my continuous learning journey in Artificial Intelligence, with a focus on hands-on practice and experimentation.
 
-### Observação
+### Notes
 
-Os projetos aqui têm fins educacionais e podem evoluir ou ser refatorados ao longo do tempo.
+Projects in this repository are for educational purposes and may evolve or be refactored over time.
 
 ---
 
-⭐ Se você achar interessante, fique à vontade para acompanhar a evolução!
+⭐ Feel free to follow along with the progress!
