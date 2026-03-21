@@ -1,16 +1,18 @@
-# 🤖 Pós Graduação Engenharia de IA Aplicada — Projetos de Estudo
+## Pós Graduação Engenharia de IA Aplicada — Projetos de Estudo
 
 Este repositório reúne todos os projetos práticos desenvolvidos durante meu Programa em Inteligência Artificial.
 Cada pasta contém um **projeto-exemplo independente**, explorando conceitos, técnicas e ferramentas aprendidas ao longo do curso.
 
-## 🎯 Objetivo
+🔗 [Site oficial da pós-graduação](https://unipds.com.br/org-pos-ia)
+
+### Objetivo
 
 * Consolidar o aprendizado com projetos práticos
 * Explorar diferentes áreas de Inteligência Artificial
 * Criar um portfólio técnico de estudos
 * Documentar experimentos e aprendizados
 
-## 📁 Estrutura do Repositório
+### 📁 Estrutura do Repositório
 
 Cada diretório representa um projeto separado:
 
@@ -35,7 +37,7 @@ Cada projeto pode conter:
 * Instruções para execução
 * Resultados e aprendizados
 
-## 🧠 Temas Abordados (exemplos)
+### 🧠 Temas Abordados (exemplos)
 
 * Machine Learning
 * Deep Learning
@@ -48,13 +50,13 @@ Cada projeto pode conter:
 
 *(A lista será atualizada conforme novos projetos forem adicionados.)*
 
-## 🚀 Como Navegar
+### Como Navegar
 
 1. Escolha uma pasta de projeto
 2. Leia o `README.md` do projeto
 3. Execute os exemplos localmente (quando aplicável)
 
-## 🛠️ Tecnologias Possíveis
+### Tecnologias Possíveis
 
 Dependendo do projeto, podem ser utilizadas:
 
@@ -67,11 +69,11 @@ Dependendo do projeto, podem ser utilizadas:
 * LangChain / frameworks de agentes
 * Docker
 
-## 📚 Sobre
+### Sobre
 
 Este repositório faz parte da minha jornada de aprendizado contínuo em Inteligência Artificial, com foco em prática e experimentação.
 
-## 📌 Observação
+### Observação
 
 Os projetos aqui têm fins educacionais e podem evoluir ou ser refatorados ao longo do tempo.
 
