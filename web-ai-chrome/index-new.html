@@ -1,0 +1,40 @@
+<output id="output"></output>
+<!-- https://www.jsdelivr.com/package/npm/markdown -->
+<script src="https://cdn.jsdelivr.net/npm/markdown@0.5.0/lib/markdown.min.js"></script>
+
+<script>
+    const output = document.getElementById('output');
+
+    ; (async () => {
+    // 1. Check if the API exists in the browser
+    if (!window.ai || !window.ai.languageModel) {
+        output.innerHTML = "Error: Built-in AI not supported in this browser.";
+        return;
+    }
+
+    // 2. Get capabilities (the replacement for .params())
+    const capabilities = await ai.languageModel.capabilities();
+    
+    // 3. Create the session
+    const session = await ai.languageModel.create({
+        systemPrompt: "Você é um assistente de IA que responde de forma clara e objetiva.",
+        temperature: capabilities.defaultTemperature,
+        topK: capabilities.defaultTopK
+    });
+
+    const question = 'Quem inventou o JavaScript?';
+    output.innerHTML = "Gerando resposta...";
+
+    // 4. Stream the response
+    const responseStream = session.promptStreaming(question);
+    
+    output.innerHTML = "";
+    let fullText = "";
+    
+    for await (const chunk of responseStream) {
+        fullText = chunk; // In the latest API, 'chunk' is often the full accumulated text
+        output.innerHTML = markdown.toHTML(fullText);
+    }
+})();
+
+</script>
